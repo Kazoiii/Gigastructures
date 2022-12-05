@@ -1,13 +1,15 @@
+# Kaiser Moon T slot
+### Repurposed to old moon artillery
 weapon_component_template = {
 	key = "GIGA_FLUSION_GUN_01"
 	size = extra_large
 	entity = "invisible_turret_entity"
 	type = instant
-	icon = "GFX_ship_part_mass_accelerator_2"
+	icon = "GFX_ship_part_moon_artillery_1"
 	icon_frame = 1
 	power = 0
 	component_set = "GIGA_FLUSION_GUN_1"
-	projectile_gfx = "giga_flusion_gun"
+	projectile_gfx = "giga_moon_artillery_1"
 	tags = { weapon_type_kinetic }
 	size_restriction = { giga_war_moon_flusion }
 	ai_tags = { weapon_role_artillery }
@@ -17,8 +19,8 @@ weapon_component_template = {
 	min_range = 10.0
 	use_ship_kill_target = no
 
-	damage = { min = 30000 max = 40000 }
-	windup = { min = 90 max = 110 }
+	damage = { min = 35000 max = 45000 }
+	windup = { min = 70 max = 80 }
 	range = 250
 	tracking = 0.20
 	accuracy = 1
@@ -27,6 +29,7 @@ weapon_component_template = {
 	armor_penetration = 1.00
 }
 
+### Kaiser Moon XL auto cannon
 weapon_component_template = {
 	key = "GIGA_FLUSION_AUTOCANNON_01"
 	size = extra_large
@@ -43,10 +46,10 @@ weapon_component_template = {
 	ai_tag_weight = 0
 
 	firing_arc = 70
-	min_range = 1.0
+	min_range = 0
 	use_ship_kill_target = no
 
-	damage = { min = 100 max = 200 }
+	damage = { min = 180 max = 320 }	# buffed to match XL
 	windup = { min = 2 max = 14 }
 	range = 80
 	tracking = 0.65
@@ -119,6 +122,7 @@ weapon_component_template = {
 	armor_penetration = 1.00
 }
 
+### Katzen Moon XL autocannons (half dmg)
 weapon_component_template = {
 	key = "GIGA_FLUSION_AUTOCANNON_02"
 	size = extra_large

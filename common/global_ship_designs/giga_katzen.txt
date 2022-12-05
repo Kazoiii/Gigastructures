@@ -53,20 +53,36 @@ ship_design = {
 	section = {
 		template = "kaiser_moon_bow_01_key"
 		slot = "bow"
-		component = { slot = "OMEGA_GUN_01"			template = "GIGA_MOON_ARTILLERY_1" }
-		component = { slot = "OMEGA_GUN_02"			template = "GIGA_MOON_ARTILLERY_1" }
+		component = { slot = "OMEGA_GUN_01"			template = "GIGA_FLUSION_GUN_01" }
+		component = { slot = "OMEGA_GUN_02"			template = "GIGA_FLUSION_GUN_01" }
 		component = { slot = "EXTRALARGE_GUN_01"	template = "MASS_ACCELERATOR_2" }
 		component = { slot = "EXTRALARGE_GUN_02"	template = "MASS_ACCELERATOR_2" }
 		component = { slot = "EXTRALARGE_GUN_03"	template = "MASS_ACCELERATOR_2" }
 		component = { slot = "EXTRALARGE_GUN_04"	template = "MASS_ACCELERATOR_2" }
 		component = { slot = "EXTRALARGE_GUN_05"	template = "MASS_ACCELERATOR_2" }
 		component = { slot = "EXTRALARGE_GUN_06"	template = "MASS_ACCELERATOR_2" }
-		component = { slot = "EXTRALARGE_GUN_07"	template = "GIGA_FLUSION_AUTOCANNON_02" }
-		component = { slot = "EXTRALARGE_GUN_08"	template = "GIGA_FLUSION_AUTOCANNON_02" }
-		component = { slot = "EXTRALARGE_GUN_09"	template = "GIGA_FLUSION_AUTOCANNON_02" }
-		component = { slot = "EXTRALARGE_GUN_10"	template = "GIGA_FLUSION_AUTOCANNON_02" }
-		component = { slot = "EXTRALARGE_GUN_11"	template = "GIGA_FLUSION_AUTOCANNON_02" }
-		component = { slot = "EXTRALARGE_GUN_12"	template = "GIGA_FLUSION_AUTOCANNON_02" }
+		component = { slot = "EXTRALARGE_GUN_07"	template = "GIGA_FLUSION_AUTOCANNON_01" }
+		component = { slot = "EXTRALARGE_GUN_08"	template = "GIGA_FLUSION_AUTOCANNON_01" }
+		component = { slot = "EXTRALARGE_GUN_09"	template = "GIGA_FLUSION_AUTOCANNON_01" }
+		component = { slot = "EXTRALARGE_GUN_10"	template = "GIGA_FLUSION_AUTOCANNON_01" }
+		component = { slot = "EXTRALARGE_GUN_11"	template = "GIGA_FLUSION_AUTOCANNON_01" }
+		component = { slot = "EXTRALARGE_GUN_12"	template = "GIGA_FLUSION_AUTOCANNON_01" }
+		component = {
+			slot = "SMALL_UTILITY_1"
+			template = "GIGA_MOON_ARMOR"
+		}
+		component = {
+			slot = "SMALL_UTILITY_2"
+			template = "GIGA_MOON_ARMOR"
+		}
+		component = {
+			slot = "SMALL_UTILITY_3"
+			template = "GIGA_MOON_SHIELD"
+		}
+		component = {
+			slot = "SMALL_UTILITY_4"
+			template = "GIGA_MOON_HULL"
+		}
 	}
 
 	section = {
@@ -85,6 +101,22 @@ ship_design = {
 		component = { slot = "LARGE_GUN_11"		template = "KINETIC_ARTILLERY_2" }
 		component = { slot = "LARGE_GUN_12"		template = "KINETIC_ARTILLERY_2" }
 		component = { slot = "LARGE_GUN_13"		template = "KINETIC_ARTILLERY_2" }
+		component = {
+			slot = "SMALL_UTILITY_1"
+			template = "GIGA_MOON_ARMOR"
+		}
+		component = {
+			slot = "SMALL_UTILITY_2"
+			template = "GIGA_MOON_ARMOR"
+		}
+		component = {
+			slot = "SMALL_UTILITY_3"
+			template = "GIGA_MOON_SHIELD"
+		}
+		component = {
+			slot = "SMALL_UTILITY_4"
+			template = "GIGA_MOON_HULL"
+		}
 	}
 
 	section = {
@@ -103,6 +135,22 @@ ship_design = {
 		component = { slot = "STRIKE_CRAFT_11"		template = "STRIKE_CRAFT_HANGAR_3" }
 		component = { slot = "STRIKE_CRAFT_12"		template = "STRIKE_CRAFT_HANGAR_3" }
 		component = { slot = "STRIKE_CRAFT_13"		template = "STRIKE_CRAFT_HANGAR_3" }
+		component = {
+			slot = "SMALL_UTILITY_1"
+			template = "GIGA_MOON_ARMOR"
+		}
+		component = {
+			slot = "SMALL_UTILITY_2"
+			template = "GIGA_MOON_ARMOR"
+		}
+		component = {
+			slot = "SMALL_UTILITY_3"
+			template = "GIGA_MOON_SHIELD"
+		}
+		component = {
+			slot = "SMALL_UTILITY_4"
+			template = "GIGA_MOON_HULL"
+		}
 	}
 
 	section = {
@@ -121,6 +169,22 @@ ship_design = {
 		component = { slot = "PD_05"			template = "FLAK_BATTERY_3" }
 		component = { slot = "PD_06"			template = "FLAK_BATTERY_3" }
 		component = { slot = "PD_07"			template = "FLAK_BATTERY_3" }
+		component = {
+			slot = "SMALL_UTILITY_1"
+			template = "GIGA_MOON_ARMOR"
+		}
+		component = {
+			slot = "SMALL_UTILITY_2"
+			template = "GIGA_MOON_ARMOR"
+		}
+		component = {
+			slot = "SMALL_UTILITY_3"
+			template = "GIGA_MOON_SHIELD"
+		}
+		component = {
+			slot = "SMALL_UTILITY_4"
+			template = "GIGA_MOON_HULL"
+		}
 	}
 
 	required_component = "GIGA_MOON_COMPUTER"
