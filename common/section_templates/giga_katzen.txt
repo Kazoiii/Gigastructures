@@ -428,8 +428,8 @@ ship_section_template = {
 
 	ai_tags = { artillery }
 
-	large_utility_slots = 12
-	aux_utility_slots = 2
+	small_utility_slots = 4
+	aux_utility_slots = 0
 }
 
 ship_section_template = {
@@ -461,8 +461,8 @@ ship_section_template = {
 
 	ai_tags = { artillery }
 
-	large_utility_slots = 12
-	aux_utility_slots = 2
+	small_utility_slots = 4
+	aux_utility_slots = 0
 }
 
 ship_section_template = {
@@ -494,8 +494,8 @@ ship_section_template = {
 
 	ai_tags = { artillery }
 
-	large_utility_slots = 12
-	aux_utility_slots = 2
+	small_utility_slots = 4
+	aux_utility_slots = 0
 }
 
 ship_section_template = {
@@ -522,8 +522,8 @@ ship_section_template = {
 
 	ai_tags = { artillery }
 
-	large_utility_slots = 12
-	aux_utility_slots = 2
+	small_utility_slots = 4
+	aux_utility_slots = 0
 }
 
 #the blimp

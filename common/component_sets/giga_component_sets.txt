@@ -63,6 +63,36 @@ component_set = { key = "GIGA_FLUSION_AUTOCANNON_1"			icon = "GFX_ship_part_auto
 component_set = { key = "GIGA_FLUSION_MISSILE_1"			icon = "GFX_ship_part_torpedo_2"				icon_frame = 1 }
 component_set = { key = "PANZER_ARTILLERY_01"				icon = "GFX_ship_part_kinetic_artillery_2"		icon_frame = 1 }
 component_set = { key = "GIGA_KATZEN_SUBMARINE_MISSILE"		icon = "GFX_ship_part_torpedo_2"				icon_frame = 1 }
+component_set = {
+	key = "GIGA_MOON_AUTOCANNON"
+	icon = "GFX_ship_part_autocannon_4"
+	icon_frame = 1
+}
+component_set = {
+	key = "GIGA_AUX_ARMOR"
+	icon = "GFX_sentient_armor"
+	icon_frame = 1
+}
+component_set = {
+	key = "GIGA_AUX_SHIELD"
+	icon = "GFX_qnm_shield"
+	icon_frame = 1
+}
+component_set = {
+	key = "GIGA_AUX_HULL"
+	icon = "GFX_ship_part_dragon_armor"
+	icon_frame = 1
+}
+component_set = {
+	key = "GIGA_AUX_ARMOR_HARDENING"
+	icon = "ARMOR_QUBERINE"
+	icon_frame = 1
+}
+component_set = {
+	key = "GIGA_AUX_SHIELD_HARDENING"
+	icon = "GFX_ship_part_reactor_booster_3"
+	icon_frame = 1
+}
 
 # Moon Armor
 component_set = { key = "MOON_ARMOR_1"						icon = "GFX_ship_part_moon_armor_1"				icon_frame = 1 }

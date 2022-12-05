@@ -11,7 +11,7 @@ weapon_component_template = {
 	component_set = "GIGA_MOON_ARTILLERY_1"
 	projectile_gfx = "giga_moon_artillery_1"
 	tags = { weapon_type_kinetic weapon_type_explosive }
-	size_restriction = { giga_massive_planet }
+	size_restriction = { corvette }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 

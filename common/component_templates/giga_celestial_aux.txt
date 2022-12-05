@@ -1,0 +1,178 @@
+### Moon Utilities
+
+utility_component_template = {
+	key = "GIGA_MOON_ARMOR"
+	size = small
+	icon = "GFX_sentient_armor"
+	icon_frame = 1
+	component_set = "GIGA_AUX_ARMOR"
+	power = 0
+	modifier = {
+		ship_armor_add = 37500
+	}
+	size_restriction = {
+		giga_massive_planet
+	}
+}
+
+utility_component_template = {
+	key = "GIGA_MOON_SHIELD"
+	size = small
+	icon = "GFX_qnm_shield"
+	icon_frame = 1
+	component_set = "GIGA_AUX_SHIELD"
+	power = -1000
+	modifier = {
+		ship_shield_add = 25000
+		ship_shield_regen_add_static = 250
+	}
+	size_restriction = {
+		giga_massive_planet
+	}
+}
+
+utility_component_template = {
+	key = "GIGA_MOON_HULL"
+	size = small
+	icon = "GFX_ship_part_dragon_armor"
+	icon_frame = 1
+	component_set = "GIGA_AUX_HULL"
+	power = 0
+	modifier = {
+		ship_hull_add = 25000
+	}
+	size_restriction = {
+		giga_massive_planet
+	}
+}
+
+utility_component_template = {
+	key = "GIGA_MOON_ARMOR_HARDENING"
+	size = large
+	icon = "GFX_ship_part_armor_quberine"
+	icon_frame = 1
+	component_set = "GIGA_AUX_ARMOR_HARDENING"
+	power = 0
+	ship_modifier = {
+		ship_armor_hardening_add = 0.20
+	}
+	size_restriction = {
+		giga_massive_planet
+		giga_planet_behemoth
+	}
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "GIGA_MOON_SHIELD_HARDENING"
+	size = large
+	icon = "GFX_ship_part_reactor_booster_3"
+	icon_frame = 1
+	component_set = "GIGA_AUX_SHIELD_HARDENING"
+	power = 0
+	ship_modifier = {
+		ship_shield_hardening_add = 0.20
+	}
+	size_restriction = {
+		giga_massive_planet
+		giga_planet_behemoth
+	}
+	ai_weight = {
+		weight = 1
+	}
+}
+
+# Planetcraft Utilities
+utility_component_template = {
+	key = "GIGA_PLANET_ARMOR"
+	size = medium
+	icon = "GFX_sentient_armor"
+	icon_frame = 1
+	component_set = "GIGA_AUX_ARMOR"
+	power = 0
+	modifier = {
+		ship_armor_add = 300000
+	}
+	size_restriction = {
+		giga_planet_behemoth
+	}
+}
+
+utility_component_template = {
+	key = "GIGA_PLANET_SHIELD"
+	size = medium
+	icon = "GFX_qnm_shield"
+	icon_frame = 1
+	component_set = "GIGA_AUX_SHIELD"
+	power = -1000
+	modifier = {
+		ship_shield_add = 200000
+		ship_shield_regen_add_static = 2000
+	}
+	size_restriction = {
+		giga_planet_behemoth
+	}
+}
+
+utility_component_template = {
+	key = "GIGA_PLANET_HULL"
+	size = medium
+	icon = "GFX_ship_part_dragon_armor"
+	icon_frame = 1
+	component_set = "GIGA_AUX_HULL"
+	power = 0
+	modifier = {
+		ship_hull_add = 200000
+	}
+	size_restriction = {
+		giga_planet_behemoth
+	}
+}
+
+utility_component_template = {
+	key = "GIGA_SYSTEM_ARMOR"
+	size = large
+	icon = "GFX_sentient_armor"
+	icon_frame = 1
+	component_set = "GIGA_AUX_ARMOR"
+	power = 0
+	modifier = {
+		ship_armor_add = 2250000
+	}
+	size_restriction = {
+		giga_systemcraft
+	}
+}
+
+utility_component_template = {
+	key = "GIGA_SYSTEM_SHIELD"
+	size = large
+	icon = "GFX_qnm_shield"
+	icon_frame = 1
+	component_set = "GIGA_AUX_SHIELD"
+	power = -1000
+	modifier = {
+		ship_shield_add = 1500000
+		ship_shield_regen_add_static = 15000
+	}
+	size_restriction = {
+		giga_systemcraft
+	}
+}
+
+utility_component_template = {
+	key = "GIGA_SYSTEM_HULL"
+	size = large
+	icon = "GFX_ship_part_dragon_armor"
+	icon_frame = 1
+	component_set = "GIGA_AUX_HULL"
+	power = 0
+	modifier = {
+		ship_hull_add = 1500000
+	}
+	size_restriction = {
+		giga_systemcraft
+	}
+}
