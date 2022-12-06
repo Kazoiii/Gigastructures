@@ -11,11 +11,11 @@ weapon_component_template = {
 	component_set = "GIGA_MOON_ARTILLERY_1"
 	projectile_gfx = "giga_moon_artillery_1"
 	tags = { weapon_type_kinetic weapon_type_explosive }
-	size_restriction = { giga_war_moon_fe giga_massive_planet }
+	size_restriction = { giga_war_moon_fe giga_massive_planet giga_systemcraft }
 	ai_tags = { weapon_role_artillery }
 	ai_tag_weight = 0
 
-	firing_arc = 10
+	firing_arc = 30
 	min_range = 5.0
 	use_ship_kill_target = no
 
@@ -26,8 +26,8 @@ weapon_component_template = {
 	damage = { min = 5000 max = 5000 }	# Nerfed to match other T slots, Kaiser uses his own varient (unnerfed)
 	windup = { min = 20 max = 40 }
 	range = 300
-	tracking = 0.30
-	accuracy = 1
+	tracking = 0
+	accuracy = 0.85
 	total_fire_time = 150
 	shield_damage = 1.80
 	armor_damage = 1.80

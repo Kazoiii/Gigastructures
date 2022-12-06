@@ -1,70 +1,93 @@
 ###############################
 ### Attack Moons ##############
 ###############################
+
+### Ship design by bread lol
 ship_design = {
 	name = "Ancient AI Planetoid"
 	ship_size = giga_massive_planet
 	section = {
 		template = "attack_moon_bow_01_key"
 		slot = "bow"
-		component = { slot = "OMEGA_GUN_01"			template = "GIGA_OMEGA_LANCE_1" }
-		component = { slot = "EXTRALARGE_GUN_01"	template = "ENERGY_LANCE_2" }
-		component = { slot = "EXTRALARGE_GUN_02"	template = "ENERGY_LANCE_2" }
-		component = { slot = "EXTRALARGE_GUN_03"	template = "ENERGY_LANCE_2" }
-		component = { slot = "EXTRALARGE_GUN_04"	template = "ENERGY_LANCE_2" }
-		component = { slot = "EXTRALARGE_GUN_05"	template = "ENERGY_LANCE_2" }
-		component = { slot = "EXTRALARGE_GUN_06"	template = "ENERGY_LANCE_2" }
-		component = { slot = "EXTRALARGE_GUN_07"	template = "ENERGY_LANCE_2" }
-		component = { slot = "EXTRALARGE_GUN_08"	template = "ENERGY_LANCE_2" }
-		component = { slot = "EXTRALARGE_GUN_09"	template = "ENERGY_LANCE_2" }
+		component = { slot = "OMEGA_GUN_01"			template = "GIGA_MOON_ARTILLERY_1" }
+		component = { slot = "OMEGA_GUN_02"			template = "GIGA_MOON_ARTILLERY_1" }
+
+		component = {
+			slot = "SMALL_UTILITY_1"
+			template = "GIGA_MOON_ARMOR_HARDENING"
+		}
+		component = {
+			slot = "SMALL_UTILITY_2"
+			template = "GIGA_MOON_SHIELD_HARDENING"
+		}
 	}
 
 	section = {
-		template = "attack_moon_mid_01_key"
-		slot = "bow"
-		component = { slot = "LARGE_GUN_01"		template = "ENERGY_TORPEDO_2" }
-		component = { slot = "LARGE_GUN_02"		template = "ENERGY_TORPEDO_2" }
-		component = { slot = "LARGE_GUN_03"		template = "ENERGY_TORPEDO_2" }
-		component = { slot = "LARGE_GUN_04"		template = "ENERGY_TORPEDO_2" }
-		component = { slot = "LARGE_GUN_05"		template = "ENERGY_TORPEDO_2" }
-		component = { slot = "LARGE_GUN_06"		template = "ENERGY_TORPEDO_2" }
-		component = { slot = "LARGE_GUN_07"		template = "ENERGY_TORPEDO_2" }
-		component = { slot = "LARGE_GUN_08"		template = "ENERGY_TORPEDO_2" }
-		component = { slot = "LARGE_GUN_09"		template = "ENERGY_TORPEDO_2" }
-		component = { slot = "LARGE_GUN_10"		template = "ENERGY_TORPEDO_2" }
+		template = "attack_moon_pd_mid_01_key"
+		slot = "mid"
+		component = { slot = "PD_01"		template = "LARGE_PLASMA_3" }
+		component = { slot = "PD_02"		template = "LARGE_PLASMA_3" }
+		component = { slot = "PD_03"		template = "SWARMER_MISSILE_2" }
+		component = { slot = "PD_04"		template = "SWARMER_MISSILE_2" }
+		component = { slot = "PD_05"		template = "MISSILE_5" }
+		component = { slot = "PD_06"		template = "MISSILE_5" }
+		component = { slot = "PD_07"		template = "MISSILE_5" }
+		component = { slot = "PD_08"		template = "MISSILE_5" }
+		component = { slot = "PD_09"		template = "FLAK_BATTERY_3" }
+		component = { slot = "PD_10"		template = "FLAK_BATTERY_3" }
+		component = { slot = "PD_11"		template = "POINT_DEFENCE_3" }
+		component = { slot = "PD_12"		template = "POINT_DEFENCE_3" }
+
+		component = {
+			slot = "SMALL_UTILITY_1"
+			template = "GIGA_MOON_ARMOR"
+		}
+		component = {
+			slot = "SMALL_UTILITY_2"
+			template = "GIGA_MOON_SHIELD"
+		}
+		component = {
+			slot = "SMALL_UTILITY_3"
+			template = "GIGA_MOON_SHIELD"
+		}
+		component = {
+			slot = "SMALL_UTILITY_4"
+			template = "GIGA_MOON_SHIELD"
+		}
 	}
 
 	section = {
-		template = "attack_moon_stern_01_key"
+		template = "attack_moon_missile_stern_01_key"
 		slot = "stern"
-		component = { slot = "STRIKE_CRAFT_01"		template = "STRIKE_CRAFT_HANGAR_3" }
-		component = { slot = "STRIKE_CRAFT_02"		template = "STRIKE_CRAFT_HANGAR_3" }
-		component = { slot = "STRIKE_CRAFT_03"		template = "STRIKE_CRAFT_HANGAR_3" }
-		component = { slot = "STRIKE_CRAFT_04"		template = "STRIKE_CRAFT_HANGAR_3" }
-		component = { slot = "STRIKE_CRAFT_05"		template = "STRIKE_CRAFT_HANGAR_3" }
-		component = { slot = "STRIKE_CRAFT_06"		template = "STRIKE_CRAFT_HANGAR_3" }
-		component = { slot = "STRIKE_CRAFT_07"		template = "STRIKE_CRAFT_HANGAR_3" }
-		component = { slot = "STRIKE_CRAFT_08"		template = "STRIKE_CRAFT_HANGAR_3" }
-		component = { slot = "STRIKE_CRAFT_09"		template = "STRIKE_CRAFT_HANGAR_3" }
-		component = { slot = "STRIKE_CRAFT_10"		template = "STRIKE_CRAFT_HANGAR_3" }
+		component = { slot = "STRIKE_CRAFT_01"		template = "TORPEDO_3" }
+		component = { slot = "STRIKE_CRAFT_02"		template = "TORPEDO_3" }
+		component = { slot = "STRIKE_CRAFT_03"		template = "TORPEDO_3" }
+		component = { slot = "STRIKE_CRAFT_04"		template = "TORPEDO_3" }
+		component = { slot = "STRIKE_CRAFT_05"		template = "ENERGY_TORPEDO_2" }
+		component = { slot = "STRIKE_CRAFT_06"		template = "ENERGY_TORPEDO_2" }
+
+		component = {
+			slot = "SMALL_UTILITY_1"
+			template = "GIGA_MOON_SHIELD"
+		}
+		component = {
+			slot = "SMALL_UTILITY_2"
+			template = "GIGA_MOON_HULL"
+		}
 	}
 
 	section = {
 		template = "attack_moon_sternthrusters_01_key"
-		slot = "stern"
-		component = { slot = "MISSILE_01"		template = "GIGA_MOON_MISSILE_1" }
-		component = { slot = "MISSILE_02"		template = "GIGA_MOON_MISSILE_1" }
-		component = { slot = "MISSILE_03"		template = "GIGA_MOON_MISSILE_1" }
-		component = { slot = "MISSILE_04"		template = "GIGA_MOON_MISSILE_1" }
-		component = { slot = "MISSILE_05"		template = "GIGA_MOON_MISSILE_1" }
-		component = { slot = "PD_01"			template = "FLAK_BATTERY_3" }
-		component = { slot = "PD_02"			template = "FLAK_BATTERY_3" }
-		component = { slot = "PD_03"			template = "FLAK_BATTERY_3" }
-		component = { slot = "PD_04"			template = "FLAK_BATTERY_3" }
-		component = { slot = "PD_05"			template = "FLAK_BATTERY_3" }
+		slot = "sternthrusters"
+		component = { slot = "MISSILE_01"		template = "GIGA_PLANET_MISSILE_1" }
+
+		component = {
+			slot = "SMALL_UTILITY_1"
+			template = "GIGA_MOON_HULL"
+		}
 	}
 
-	required_component = "GIGA_MOON_COMPUTER"
+	required_component = "GIGA_MOON_COMPUTER_INTERCEPTOR"
 	required_component = "SENSOR_4"
 	required_component = "REACTOR_MOON"
 	required_component = "HYPER_DRIVE_3"
@@ -116,12 +139,12 @@ ship_design = {
 		component = { slot = "MISSILE_04"			template = "TORPEDO_3" }
 		component = { slot = "MISSILE_05"			template = "TORPEDO_3" }
 		component = { slot = "MISSILE_06"			template = "TORPEDO_3" }
-		component = { slot = "STRIKE_CRAFT_01"		template = "GIGA_MOON_FIGHTER_1" }
-		component = { slot = "STRIKE_CRAFT_02"		template = "GIGA_MOON_FIGHTER_1" }
-		component = { slot = "STRIKE_CRAFT_03"		template = "GIGA_MOON_FIGHTER_1" }
-		component = { slot = "STRIKE_CRAFT_04"		template = "GIGA_MOON_FIGHTER_1" }
-		component = { slot = "STRIKE_CRAFT_05"		template = "GIGA_MOON_FIGHTER_1" }
-		component = { slot = "STRIKE_CRAFT_06"		template = "GIGA_MOON_FIGHTER_1" }
+		component = { slot = "STRIKE_CRAFT_01"		template = "GIGA_PLANET_FIGHTER_1" }
+		component = { slot = "STRIKE_CRAFT_02"		template = "GIGA_PLANET_FIGHTER_1" }
+		component = { slot = "STRIKE_CRAFT_03"		template = "GIGA_PLANET_FIGHTER_1" }
+		component = { slot = "STRIKE_CRAFT_04"		template = "GIGA_PLANET_FIGHTER_1" }
+		component = { slot = "STRIKE_CRAFT_05"		template = "GIGA_PLANET_FIGHTER_1" }
+		component = { slot = "STRIKE_CRAFT_06"		template = "GIGA_PLANET_FIGHTER_1" }
 	}
 
 	required_component = "PSI_JUMP_DRIVE_1"
@@ -172,12 +195,12 @@ ship_design = {
 		component = { slot = "MISSILE_04"			template = "TORPEDO_3" }
 		component = { slot = "MISSILE_05"			template = "TORPEDO_3" }
 		component = { slot = "MISSILE_06"			template = "TORPEDO_3" }
-		component = { slot = "STRIKE_CRAFT_01"		template = "GIGA_MOON_FIGHTER_1" }
-		component = { slot = "STRIKE_CRAFT_02"		template = "GIGA_MOON_FIGHTER_1" }
-		component = { slot = "STRIKE_CRAFT_03"		template = "GIGA_MOON_FIGHTER_1" }
-		component = { slot = "STRIKE_CRAFT_04"		template = "GIGA_MOON_FIGHTER_1" }
-		component = { slot = "STRIKE_CRAFT_05"		template = "GIGA_MOON_FIGHTER_1" }
-		component = { slot = "STRIKE_CRAFT_06"		template = "GIGA_MOON_FIGHTER_1" }
+		component = { slot = "STRIKE_CRAFT_01"		template = "GIGA_PLANET_FIGHTER_1" }
+		component = { slot = "STRIKE_CRAFT_02"		template = "GIGA_PLANET_FIGHTER_1" }
+		component = { slot = "STRIKE_CRAFT_03"		template = "GIGA_PLANET_FIGHTER_1" }
+		component = { slot = "STRIKE_CRAFT_04"		template = "GIGA_PLANET_FIGHTER_1" }
+		component = { slot = "STRIKE_CRAFT_05"		template = "GIGA_PLANET_FIGHTER_1" }
+		component = { slot = "STRIKE_CRAFT_06"		template = "GIGA_PLANET_FIGHTER_1" }
 	}
 
 	required_component = "JUMP_DRIVE_1"
