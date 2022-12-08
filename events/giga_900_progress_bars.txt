@@ -142,10 +142,12 @@ planet_event = {
 				settings = { spawn_debris = no }
 				effect = {
 					set_owner = event_target:giga_vat_owner
-					create_ship = {
+					while = {
 						count = @wraithcount
-						name = random
-						design = "NAME_Giga_Wraith"
+						create_ship = {
+							name = random
+							design = "NAME_Giga_Wraith"
+						}
 					}
 					set_fleet_flag = giga_created_by_vat@event_target:giga_vat_owner
 					set_location = root
@@ -192,10 +194,12 @@ planet_event = {
 				settings = { spawn_debris = no }
 				effect = {
 					set_owner = event_target:giga_vat_owner
-					create_ship = {
+					while = {
 						count = @stellaritecount
-						name = random
-						design = "NAME_Giga_Stellarite"
+						create_ship = {
+							name = random
+							design = "NAME_Giga_Stellarite"
+						}
 					}
 					set_fleet_flag = giga_created_by_vat@event_target:giga_vat_owner
 					set_location = root
@@ -216,10 +220,12 @@ planet_event = {
 				settings = { spawn_debris = no }
 				effect = {
 					set_owner = event_target:giga_vat_owner
-					create_ship = {
+					while = {
 						count = @voidspawncount
-						name = random
-						design = "NAME_Giga_Voidspawn"
+						create_ship = {
+							name = random
+							design = "NAME_Giga_Voidspawn"
+						}
 					}
 					set_fleet_flag = giga_created_by_vat@event_target:giga_vat_owner
 					set_location = root
@@ -241,7 +247,7 @@ planet_event = {
 				effect = {
 					set_owner = event_target:giga_vat_owner
 					while = {
-						count = 
+						count = @queencount
 						create_ship = {
 							name = random
 							design = "NAME_Giga_Queen"
@@ -457,6 +463,7 @@ planet_event = {
 		}
 	} 
 }
+
 planet_event = {
 	id = giga_progress_bars.20000
 	is_triggered_only = yes
