@@ -1,5 +1,10 @@
 
 tr_gigaengineering_adopt = {
+	possible = {
+		if = {
+			has_technology = giga_tech_tetradimensional_engineering
+		}
+	}
 	modifier = {
 		megastructure_build_speed_mult = 0.20
 	}
